@@ -13,7 +13,7 @@ try:
         name = NAME,
         version = VERSION,
         ext_modules = [ Extension('_nmsg', ['_nmsg.pyx'], libraries = ['nmsg'],
-            depends = [ 'nmsg_input.pyx', 'nmsg_io.pyx', 'nmsg_message.pyx', 
+            depends = [ 'nmsg_input.pyx', 'nmsg_io.pyx', 'nmsg_message.pyx',
                         'nmsg_msgmod.pyx', 'nmsg_msgtype.pyx',
                         'nmsg_output.pyx', 'nmsg_util.pyx', 'nmsg.pxi' ],
                 ) ],
