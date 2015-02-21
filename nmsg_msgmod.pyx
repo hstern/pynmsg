@@ -1,3 +1,5 @@
+#cython: embedsignature=True
+
 # Copyright (c) 2009-2014 by Farsight Security, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
